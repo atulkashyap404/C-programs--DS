@@ -87,22 +87,47 @@ int main()
 
     */
   
-  /*
-  --> Control Instruction
-  Used to determine flow of program
+   /*
+   -> Control Instruction
+   Used to determine flow of program
 
-  a. Sequence Control
-  b. decision Control
-  c. loop Control
-  d. Case Control
+   a. Sequence Control
+   b. decision Control
+   c. loop Control
+   d. Case Control
 
     a. Sequence Control
- ---> All above codes are the Sequence Control because the flow of program is sequence wise.
+   ---> All above codes are the Sequence Control because the flow of  program is sequence wise.
  
     
+ ---> Operators
+ a. Arithmetic Operators +, -, /, *, %.
+ b. Relational Operators ==, >, >=, <, <=, != 
+ c. Logical Operators  && And, || OR, ! Not
+ d. Bitwise Operators
+  e. Assignment Operators =, +=, -=, *=, /=, %=
+  f.Ternary Operators
+
+  Operator Precendence
+  Priority   Operator
+  1          !
+  2           *, /, %
+  3           +, -
+  4           <, <=, >, >=
+  5           ==, !=
+  6           &&
+  7           ||
+  8            =  */
+
+  /*
+  Q1. write a program to print the agrage of 3 numbers.
+  float a,b,c;
+  printf("Entre the three number : \n");
+  scanf("%f%f%f",&a,&b,&c);
+  float avg= a+b+c/3;
+  printf("the avrage of three number is %f", avg);*/
 
   
-  */
 
 
    
