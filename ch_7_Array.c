@@ -139,6 +139,7 @@ int main(){
 //**********<<<<<Multidimentional Array>>>>>>>>>************
 // 2 D Array
 
+// int arr[][]={{1,2},{3,4}}; //Declare
 
 //Access
 
@@ -148,8 +149,19 @@ int main(){
 // arr[1][1]
 
 
+int marks[2][3]; //storing two students marks
 
+//first student marks
+marks[0][0] = 70;
+marks[0][1] = 80;
+marks[0][2] = 90;
 
+//Second student marks
+marks[1][0] = 40;
+marks[1][1] = 50;
+marks[1][2] = 60;
+
+printf(" first student mark 1 : %d\n", marks[0][0]);
 
 
 
