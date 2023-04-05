@@ -137,7 +137,7 @@ int main(){
 // printNumber(arr, 6);
 
 //**********<<<<<Multidimentional Array>>>>>>>>>************
-
+// 2 D Array
 
 
 //Access
