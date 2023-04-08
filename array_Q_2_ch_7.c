@@ -1,6 +1,6 @@
 #include<stdio.h>
 
- int reverseArray(int arr[], int n);
+ int reverseArray(int arr[], int n); 
  int printArray(int arr[], int n);
 
 int main(){
